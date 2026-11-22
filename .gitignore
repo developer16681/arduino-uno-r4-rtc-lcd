@@ -1,0 +1,25 @@
+# Arduino build and temporary files
+build/
+*.hex
+*.elf
+*.bin
+*.map
+
+# Arduino IDE sketch temporary files
+*.pyc
+.build/
+
+# VS Code / IDE metadata
+.vscode/
+.idea/
+*.swp
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Sensitive configuration
+arduino_secrets.h
+secrets.h
